@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 import {Script, console2} from "forge-std/Script.sol";
 
-contract BlockhashScript is Script {
+contract CollisionScript is Script {
     event Log(bytes32 blockhash);
 
     function setUp() public {}

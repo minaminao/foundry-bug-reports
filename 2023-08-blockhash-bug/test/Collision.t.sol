@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 import {Test, console2} from "forge-std/Test.sol";
 
-contract ContractTest is Test {
+contract CollisionTest is Test {
     event Log(bytes32 blockhash);
 
     function setUp() public {}
